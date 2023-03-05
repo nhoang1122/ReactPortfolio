@@ -7,9 +7,9 @@ import {FaRegEnvelope} from 'react-icons/fa'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="https://www.linkedin.com/in/nhathoangdev/" target="_blank"><FaLinkedinIn/></a>
-        <a href="https://github.com/nhoang1122" target="_blank"><FaGithub/></a>
-        <a href="mailto:johnhoang.dev@gmail.com?subject=Let's%20Code%20And%20Connect" target="_blank"><FaRegEnvelope/></a>
+        <a href="https://www.linkedin.com/in/nhathoangdev/" target="_blank" rel='noreferrer'><FaLinkedinIn/></a>
+        <a href="https://github.com/nhoang1122" target="_blank" rel='noreferrer'><FaGithub/></a>
+        <a href="mailto:johnhoang.dev@gmail.com?subject=Let's%20Code%20And%20Connect" target="_blank" rel='noreferrer'><FaRegEnvelope/></a>
     </div>
   )
 }

@@ -29,7 +29,7 @@ const About = () => {
             {<br></br>}
           </p>
           <p></p>
-          <a href={CV} className='btn btn-primary'>Download Resume <FiDownload/></a>
+          <a href={CV} className='btn btn-primary btn-download'>Download Resume <FiDownload/></a>
         </div>
       </div>
     </section>
