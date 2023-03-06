@@ -2,12 +2,13 @@ import React from 'react'
 import './footer.css'
 
 import {AiOutlineLinkedin} from 'react-icons/ai'
+import {FaLinkedinIn} from 'react-icons/fa'
 import {AiOutlineGithub} from 'react-icons/ai'
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>JohnHoang</a>
+      <a href="#" className='footer__logo'>John Hoang</a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -18,7 +19,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/nhathoangdev/" target="_blank" rel='noreferrer'><AiOutlineLinkedin className="footer__socials-icon"/></a>
+        <a href="https://www.linkedin.com/in/nhathoangdev/" target="_blank" rel='noreferrer'><FaLinkedinIn className="footer__socials-icon"/></a>
         <a href="https://github.com/nhoang1122" target="_blank" rel='noreferrer' className="footer__socials-icon"><AiOutlineGithub /></a>
       </div>
 
