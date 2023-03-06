@@ -4,7 +4,7 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {CgFileDocument} from 'react-icons/cg'
-
+import {FiMessageCircle} from 'react-icons/fi'
 
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
@@ -51,7 +51,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your E-Mail' required />
           <textarea name="message" placeholder='Your Message' rows="7" required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary '>Send Message <FiMessageCircle /></button>
         </form>
       </div>
     </section>

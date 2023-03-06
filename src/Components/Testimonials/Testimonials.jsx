@@ -2,6 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import Andrew from "../../Assets/AndrewSmith.jpg";
 import Lukas from "../../Assets/Lukas.jpg";
+import Freddy from '../../Assets/FreddyS.webp'
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -25,6 +26,12 @@ const data = [
     name: "Lukas Nesittka",
     review:
       "Nhat is a brilliant, up-and-coming software engineer. He’s got an incredible work ethic, curious mind, and beams with a go-getter attitude. Don’t sleep on this developer. Friendly, and personable, he’s the star of your dream team.",
+  },
+  {
+    avatar: Freddy,
+    name: "Freddy Sandoval",
+    review:
+      "Working with John was truly a pleasure. He is a very intelligent and driven individual who loves to learn. John not only brings fresh ideas but also positivity to the team. If given the chance I would love to work with him again!",
   },
 ];
 
