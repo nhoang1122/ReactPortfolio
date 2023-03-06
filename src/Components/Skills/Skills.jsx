@@ -18,7 +18,7 @@ import {TbBrandVscode} from 'react-icons/tb'
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>What Skills I Have</h5>
+      <h5>My Tech Stack</h5>
       <h2>Skills</h2>
       <div className="container skills__container">
         <div className="skills__fullstack">
