@@ -3,6 +3,7 @@ import "./testimonials.css";
 import Andrew from "../../Assets/AndrewSmith.jpg";
 import Lukas from "../../Assets/Lukas.jpg";
 import Freddy from '../../Assets/FreddyS.webp'
+import Wyatt from '../../Assets/WyattHoff.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -20,6 +21,12 @@ const data = [
     name: "Andrew J.Smith",
     review:
       "Nhat is an excellent developer who is both easy to work with and able to get the job done! I had the pleasure of working with him for several months, and was able to take a good look into how he learns and thinks about code. He is excellent in every regard, and is not afraid to let his awesome personality shine through. His curiosity and drive to succeed in whatever project he is working on are sure to make him a coveted addition to any team. Watch out, tech industry - Nhat is here, and he is in it to win it!",
+  },
+  {
+    avatar: Wyatt,
+    name: "Wyatt Hoffman",
+    review:
+      "John is a sharp guy, combine that with his persistence and it makes him the ultimate combination. I have nothing but respect for the amount of time he pours into his work, his accountability, and the effort he makes day in and day out to achieve his goals. I would 100% recommend him for any dev team as he would make an instant impact.",
   },
   {
     avatar: Lukas,
