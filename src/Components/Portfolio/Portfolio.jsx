@@ -4,29 +4,39 @@ import "./portfolio.css";
 import Marketable from "../../Assets/Marketable.png";
 import CertifiedCinema from "../../Assets/CertifiedCinemaSS.png";
 import Tetris from "../../Assets/Tetris.png";
+import SocialSociety from '../../Assets/MyFeed.png';
 
 
 const data = [
   {
     id: 1,
+    image: SocialSociety,
+    title: "SocialSociety",
+    github: "https://github.com/nhoang1122/SocialSociety",
+    hosted: "https://dash-board-marketable.vercel.app/",
+    feature: "Features: MongoDB, Express, ReactJS, NodeJS",
+    info: "Developed and Deployed a Fully-Responsive MERN Stack Social Media Application. Users can Register for a Profile with an E-Mail, Password, and a Photo! Users can then create post and add friends!",
+  },
+  {
+    id: 2,
     image: Marketable,
     title: "Marketable Dashboard",
     github: "https://github.com/nhoang1122/DashBoardMarketable",
     hosted: "https://dash-board-marketable.vercel.app/",
     feature: "Features: ReactJS | JavaScript | TailWind",
-    info: "Maintained and developed a fully-responsive E-Commerce Dashboard, showing data in a compelling and user-friendly way for users!",
+    info: "Maintained and Developed a Fully-Responsive E-Commerce Dashboard, showing data in a compelling and user-friendly way for users!",
   },
   {
-    id: 2,
+    id: 3,
     image: CertifiedCinema,
     title: "Certified Cinema",
     github: "https://github.com/nhoang1122/CertifiedCinema",
     hosted: "https://certified-cinema.vercel.app/",
     feature: "Features: ReactJS | JavaScript | FireBase",
-    info: "Built and deployed a full-stack movie application allowing users to browse over 1000+ movies!",
+    info: "Built and Deployed a Full-Stack Movie Application allowing users to browse over 1000+ movies!",
   },
   {
-    id: 3,
+    id: 4,
     image: Tetris,
     title: "Tetris",
     github: "https://github.com/nhoang1122/TETRIS",
