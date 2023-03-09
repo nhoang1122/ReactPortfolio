@@ -19,7 +19,7 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: Andrew,
-    name: "Andrew J.Smith",
+    name: "Andrew J. Smith",
     review:
       "Nhat is an excellent developer who is both easy to work with and able to get the job done! I had the pleasure of working with him for several months, and was able to take a good look into how he learns and thinks about code. He is excellent in every regard, and is not afraid to let his awesome personality shine through. His curiosity and drive to succeed in whatever project he is working on are sure to make him a coveted addition to any team. Watch out, tech industry - Nhat is here, and he is in it to win it!",
   },
