@@ -13,7 +13,7 @@ const data = [
     image: SocialSociety,
     title: "Social Society",
     github: "https://github.com/nhoang1122/SocialSociety",
-    hosted: "https://dash-board-marketable.vercel.app/",
+    hosted: "https://github.com/nhoang1122/SocialSociety",
     feature: "Features: MongoDB, Express, ReactJS, NodeJS",
     info: "Developed and Deployed a Fully-Responsive MERN Stack Social Media Application!",
   },
