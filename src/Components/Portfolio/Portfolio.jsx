@@ -11,11 +11,11 @@ const data = [
   {
     id: 1,
     image: SocialSociety,
-    title: "SocialSociety",
+    title: "Social Society",
     github: "https://github.com/nhoang1122/SocialSociety",
     hosted: "https://dash-board-marketable.vercel.app/",
     feature: "Features: MongoDB, Express, ReactJS, NodeJS",
-    info: "Developed and Deployed a Fully-Responsive MERN Stack Social Media Application. Users can Register for a Profile with an E-Mail, Password, and a Photo! Users can then create post and add friends!",
+    info: "Developed and Deployed a Fully-Responsive MERN Stack Social Media Application!",
   },
   {
     id: 2,
