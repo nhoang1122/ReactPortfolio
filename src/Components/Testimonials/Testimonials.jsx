@@ -5,7 +5,7 @@ import Lukas from "../../Assets/Lukas.jpg";
 import Freddy from '../../Assets/FreddyS.webp';
 import Wyatt from '../../Assets/WyattHoff.jpg';
 import Yafreisy from '../../Assets/Yafreisy.jpg';
-import Hunter from  '../../Assets/Hunter,jpg';
+import Hunter from  '../../Assets/Hunter.jpg';
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
