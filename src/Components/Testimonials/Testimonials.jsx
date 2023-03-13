@@ -5,6 +5,7 @@ import Lukas from "../../Assets/Lukas.jpg";
 import Freddy from '../../Assets/FreddyS.webp';
 import Wyatt from '../../Assets/WyattHoff.jpg';
 import Yafreisy from '../../Assets/Yafreisy.jpg';
+import Hunter from  '../../Assets/Hunter,jpg';
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -34,6 +35,12 @@ const data = [
     name: "Wyatt Hoffman",
     review:
       "John is a sharp guy, combine that with his persistence and it makes him the ultimate combination. I have nothing but respect for the amount of time he pours into his work, his accountability, and the effort he makes day in and day out to achieve his goals. I would 100% recommend him for any dev team as he would make an instant impact.",
+  },
+  {
+    avatar: Hunter,
+    name: "Hunter HerrNeckar",
+    review:
+      "I was able to watch John learn and grow into the Software Engineer that he is now, and I must say that John is an extremely hardworking and determined individual. He as put forth vast amounts of effort in learning new information and created some great looking projects utilizing his coding abilities. Not only is he capable of doing the work, he also would make a fantastic colleague as he is collaborative, communicative, team-oriented, and determined. I highly recommend John to be a part of anyone's team!!",
   },
   {
     avatar: Lukas,
