@@ -1,5 +1,6 @@
 import React from "react";
 import "./testimonials.css";
+import Katie from "../../Assets/Katie.jpg";
 import Andrew from "../../Assets/AndrewSmith.jpg";
 import Lukas from "../../Assets/Lukas.jpg";
 import Freddy from '../../Assets/FreddyS.webp';
@@ -18,6 +19,12 @@ import "swiper/css/pagination";
 
 
 const data = [
+  {
+    avatar: Katie,
+    name: "Katie Schooling",
+    review: 
+      "I can't say enough great things about John, his work ethic, and his dedication to the teams he joins. I know his dedication to learning and personal development because I've seen it first-hand, and I have been fortunate enough to experience his kindness and go-get-'em attitude in the workplace as well. John is a WONDERFUL contributor and partner, and I'm so grateful for the opportunity I've had to work with him!",
+  },
   {
     avatar: Andrew,
     name: "Andrew J. Smith",
