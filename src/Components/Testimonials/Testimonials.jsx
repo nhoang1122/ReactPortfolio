@@ -1,6 +1,7 @@
 import React from "react";
 import "./testimonials.css";
 import Katie from "../../Assets/Katie.jpg";
+import Erica from "../../Assets/Erica.jpg"
 import Andrew from "../../Assets/AndrewSmith.jpg";
 import Lukas from "../../Assets/Lukas.jpg";
 import Freddy from '../../Assets/FreddyS.webp';
@@ -24,6 +25,12 @@ const data = [
     name: "Katie Schooling",
     review: 
       "I can't say enough great things about John, his work ethic, and his dedication to the teams he joins. I know his dedication to learning and personal development because I've seen it first-hand, and I have been fortunate enough to experience his kindness and go-get-'em attitude in the workplace as well. John is a WONDERFUL contributor and partner, and I'm so grateful for the opportunity I've had to work with him!",
+  },
+  {
+    avatar: Erica,
+    name: "Erica Guarnieri",
+    review: 
+      "Working with John was a true pleasure. His positive attitude and optimistic outlook created a motivating atmosphere within the team and for our students. John has excellent interpersonal skills. He quickly built strong relationships with our students, earning their trust and fostering successful completion of the bootcamp experience. I would highly recommend John for a educational role in the software engineer field.",
   },
   {
     avatar: Andrew,
