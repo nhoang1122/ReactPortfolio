@@ -5,11 +5,20 @@ import Marketable from "../../Assets/Marketable.png";
 import CertifiedCinema from "../../Assets/CertifiedCinemaSS.png";
 import Tetris from "../../Assets/Tetris.png";
 import SocialSociety from '../../Assets/MyFeed.png';
-
+import MelodicMusic from '../../Assets/MelodicMusic.png';
 
 const data = [
   {
     id: 1,
+    image: MelodicMusic,
+    title: "Melodic Music",
+    github: "https://github.com/nhoang1122/MelodicMusic",
+    hosted: "https://melodicmusic.netlify.app/",
+    feature: "Features: ReactJS, Redux, NodeJS, TailWind",
+    info: "Architected a Music Application featuring a Search Engine, Music Player Displaying Lyrics and much more!",
+  },
+  {
+    id: 2,
     image: SocialSociety,
     title: "Social Society",
     github: "https://github.com/nhoang1122/SocialSociety",
@@ -18,7 +27,7 @@ const data = [
     info: "Developed and Deployed a Fully-Responsive MERN Stack Social Media Application!",
   },
   {
-    id: 2,
+    id: 3,
     image: Marketable,
     title: "Marketable Dashboard",
     github: "https://github.com/nhoang1122/DashBoardMarketable",
@@ -27,7 +36,7 @@ const data = [
     info: "Maintained and Developed a Fully-Responsive E-Commerce Dashboard, showing data in a compelling and user-friendly way for users!",
   },
   {
-    id: 3,
+    id: 4,
     image: CertifiedCinema,
     title: "Certified Cinema",
     github: "https://github.com/nhoang1122/CertifiedCinema",
@@ -36,7 +45,7 @@ const data = [
     info: "Built and Deployed a Full-Stack Movie Application allowing users to browse over 1000+ movies!",
   },
   {
-    id: 4,
+    id: 5,
     image: Tetris,
     title: "Tetris",
     github: "https://github.com/nhoang1122/TETRIS",
